@@ -1,6 +1,6 @@
 # claude-log
 
-A quick-and-dirty CLI tool for browsing and searching your local [Claude Code](https://docs.anthropic.com/en/docs/claude-code) chat logs.
+A quick-and-dirty CLI tool for browsing and searching your local [Claude Code](https://docs.anthropic.com/en/docs/claude-code) chat logs. Read more about how this tool fits into a self-improving CLAUDE.md workflow on [my blog](https://martinalderson.com/posts/self-improving-claude-md-files/).
 
 Built in C# / .NET 10 and compiled ahead-of-time (AOT) to a native binary. AOT means instant startup (~2ms, no JIT warmup), a single self-contained executable with no runtime to install, and a small binary size (~3MB).
 
